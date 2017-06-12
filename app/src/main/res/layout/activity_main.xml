@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.it01.paicong.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+   <Button
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Customer"
+       android:id="@+id/btn_customer"
+       />
+   <Button
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Property"
+       android:id="@+id/btn_property"
+       />
+</LinearLayout>
